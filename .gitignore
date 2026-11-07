@@ -1,0 +1,91 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# only for locals, not to be uploaded, restricted
+/.ai/*
+/.claude/*
+AGENTS.md
+CLAUDE.md
+NEXTJS_MANDATE.md
+
+# extra
+/.agents/
+/.claude/
+/.claude-plugin/
+/.codex-plugin/
+/.cursor-plugin/
+/.github/
+/.openclaw-plugin/
+/.pi/
+/.claude/
+/configs/
+/hooks/
+/scripts/
+/skills/
+/tests/
+/.code-review-graph/
+/.git/
+/.kilocode/
+/.qwen/
+/.qoder/
+/.windsurf/
+/docs/
+/_docs_/
+/node-compile-cache/
+/test-results/
+/_documentations_/
+/tsx-1000/
+
+# logs and temporary dumps
+*.log
+tsc-errors.txt
+build_log.txt
+eslint-final.json
+plans-postlogin.jsonl
+drop-*.js
+test-db.ts
+worker-process.ts
+
+# local
+.opencode/
+.graphify-cache/
+graphify-out/
